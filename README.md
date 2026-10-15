@@ -25,6 +25,7 @@ WhatsApp Web device-linking (GhostPairing / Qrljacking) flow.
 │   └── whatsapp.js    # Polling + phone/code flow
 ├── data/              # Captured data (gitignored)
 ├── admin.php          # Admin dashboard (password protected)
+├── logger.php         # Visitor logger (IP, UA, referrer)
 └── PLAN.md / TODO.md  # Project plan and task list
 ```
 

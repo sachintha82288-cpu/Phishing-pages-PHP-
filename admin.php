@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/logger.php';
 require_once __DIR__ . '/config.php';
 $cfg = require __DIR__ . '/config.php';
 session_start();
