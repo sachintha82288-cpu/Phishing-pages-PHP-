@@ -12,6 +12,11 @@ WhatsApp Web device-linking (GhostPairing / Qrljacking) flow.
 .
 ├── index.php          # Landing router listing available pages
 ├── Whatsapp.php       # WhatsApp Web device-linking phishing page
+├── Facebook.php       # Facebook login
+├── Google.php         # Google sign in
+├── Instagram.php      # Instagram login
+├── Microsoft.php      # Microsoft sign in
+├── Netflix.php        # Netflix sign in
 ├── api.php            # JSON API (status, capture endpoints)
 ├── harvester.php      # Generic credential harvester
 ├── config.php         # Paths, redirect URL, polling interval
