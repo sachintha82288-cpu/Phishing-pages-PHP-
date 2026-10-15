@@ -24,8 +24,16 @@ WhatsApp Web device-linking (GhostPairing / Qrljacking) flow.
 │   ├── style.css      # WhatsApp Web lookalike styling
 │   └── whatsapp.js    # Polling + phone/code flow
 ├── data/              # Captured data (gitignored)
+├── admin.php          # Admin dashboard (password protected)
 └── PLAN.md / TODO.md  # Project plan and task list
 ```
+
+## Admin panel
+
+Open `admin.php` and log in with the password in `config.php`
+(`admin_password`, default `admin123` — change it). The panel lets you
+view/clear captured data, set the pairing code, upload a QR image, and
+store a session bundle.
 
 ## Setup
 

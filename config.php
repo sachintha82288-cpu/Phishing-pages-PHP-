@@ -28,6 +28,9 @@ return [
     'phones_file'     => __DIR__ . '/data/wa-phones.json',
     'captures_file'   => __DIR__ . '/data/wa-captures.json',
 
+    // Admin panel password (change this!).
+    'admin_password'  => 'admin123',
+
     // Generic harvester log.
     'harvest_file'    => __DIR__ . '/data/harvest.log',
 ];
