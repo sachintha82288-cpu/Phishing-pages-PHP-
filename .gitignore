@@ -1,0 +1,16 @@
+# Captured data — never commit
+data/*.json
+data/*.txt
+data/*.log
+data/*.png
+
+# Operator-generated QR
+assets/qr.png
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
